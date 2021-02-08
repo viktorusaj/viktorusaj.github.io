@@ -1,0 +1,61 @@
+*{
+    padding:0;
+	margin:0;
+}
+body{
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.ime{
+ position: relative; 
+  top:-500px;
+  left:860px;
+  color: white;
+}
+
+
+.menubar{
+    top:-5px;
+    left:-10px;
+	display:flex;
+	position:relative;
+}
+
+.menubar .sidebar{
+	position:fixed;
+	width:200px;
+	height:100%;
+    padding:30px 0;
+	border-top:none;
+    border-left:none;
+    margin-left:10px;
+	
+}
+
+.menubar .sidebar h3{
+	color:white;
+	text-align:left;
+	margin-bottom:30px;
+}
+
+.menubar .sidebar ul li{
+    padding:10px;
+	border-bottom: 1px solid white 0.5;
+	border-top:1px solid white 0.5;
+}
+
+.menubar .sidebar ul li a {
+	color:white;
+	display:block;
+}
+.menubar .sidebar ul li a fas{
+	width:25px;
+}
+
+
+ul{
+    list-style: none;
+}
